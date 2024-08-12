@@ -1,11 +1,11 @@
-const precolivros =[25,15,30,50,45,20];
+const precoslivros =[25,15,30,50,45,20];
 
 let atual = 0 ;
-let maisbarato = 0 ;
+let maisBarato = 0 ;
 
-for(let atual = 0; atual<precosLivros.length; atual++){
-    if(precosLivros[atual]<precosLivros[maisBarato]){
+for(let atual = 0; atual<precoslivros.length; atual++){
+    if(precoslivros[atual]<precoslivros[maisBarato]){
         maisBarato = atual
     }
 }
-console.log(`o livro mais barato custa ${precosLivros[maisBarato]}`)
+console.log(`o livro mais barato custa ${precoslivros[maisBarato]}`)
